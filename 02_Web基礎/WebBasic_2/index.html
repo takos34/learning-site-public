@@ -1,0 +1,1042 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>WebBasic 2 - 学習教材サイト</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../.." title="学習教材サイト" class="md-header__button md-logo" aria-label="学習教材サイト" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            学習教材サイト
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              WebBasic 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="学習教材サイト" class="md-nav__button md-logo" aria-label="学習教材サイト" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    学習教材サイト
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ホーム
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02_Web基礎
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02_Web基礎
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../WebBasic_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    レッスン1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        学習目標
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTTPってなに？
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="HTTPってなに？">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. HTTPの正体
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. なぜHTTPが必要なの？
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-http" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. HTTPの具体的な働き
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. HTTPの具体的な働き">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        リクエスト（要求）の方法
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レスポンス（応答）の方法
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        エラーの伝え方
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#httphttps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTTPとHTTPSの違い
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="HTTPとHTTPSの違い">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-http_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. HTTPの問題点
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-https" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. HTTPSの登場
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-https" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 現在はHTTPSが標準
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        URLの構造を理解しよう
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="URLの構造を理解しよう">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#url_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        URLの例
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        各部分の詳細説明
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="各部分の詳細説明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-https" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. プロトコル部分：https://
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-wwwexamplecom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. ドメイン名：www.example.com
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-443" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ポート番号：:443（通常は表示されない）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-productssmartphoneshtml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. パス：/products/smartphones.html
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-colorredampsizelarge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. クエリパラメータ：?color=red&amp;amp;size=large
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. フラグメント：#features
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        実際に確認してみよう
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="実際に確認してみよう">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1https" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        演習1：HTTPS確認
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        演習2：URL分析
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        演習3：エラーページ体験
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        よくある質問
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        重要なポイント
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="重要なポイント">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#http_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTTPは「共通言語」
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#https" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTTPSは現在の必須要件
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#url_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        URLは住所＋詳細情報
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ブラウザが自動で処理
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        まとめ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        次回予告
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>WebBasic 2</h1>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<p><lesson>
+  <type>text</type>
+  <description>HTTPプロトコルの基本概念を理解し、Webでの通信がどのような約束事で行われているかを学ぶ。HTTPとHTTPSの違い、URLの構造を身近な例で説明し、初心者でも理解しやすい内容とする。</description>
+  <title>02.HTTP/HTTPS - インターネットの共通言語</title>
+  <content># HTTP/HTTPS - インターネットの共通言語</p>
+<h2 id="_1">学習目標</h2>
+<ul>
+<li>HTTPが何の略で、なぜ必要なのかを理解する</li>
+<li>HTTPとHTTPSの違いとセキュリティの重要性を知る</li>
+<li>URLの構造と各部分の意味を理解する</li>
+<li>実際のブラウザでHTTP/HTTPSを確認できるようになる</li>
+</ul>
+<h2 id="http">HTTPってなに？</h2>
+<h3 id="1-http">1. HTTPの正体</h3>
+<p><strong>HTTP</strong>は「<strong>H</strong>yper<strong>T</strong>ext <strong>T</strong>ransfer <strong>P</strong>rotocol」の略です。</p>
+<p><img alt="WebBasic_2_1" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_1.png" /></p>
+<p><strong>分解して理解してみよう：</strong>
+- <strong>HyperText</strong> = Webページ（リンクでつながった文書）
+- <strong>Transfer</strong> = 転送・やり取り
+- <strong>Protocol</strong> = 約束事・ルール</p>
+<p><strong>つまり：</strong>「Webページをやり取りするための共通のルール」ということです。</p>
+<h3 id="2-http">2. なぜHTTPが必要なの？</h3>
+<p>想像してみてください。世界中から人が集まる国際会議があったとします。</p>
+<p><img alt="WebBasic_2_2" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_2.png" />
+<img alt="WebBasic_2_3" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_3.png" /></p>
+<table>
+<thead>
+<tr>
+<th>国際会議の状況</th>
+<th>インターネットの状況</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>参加者：世界各国の人々</td>
+<td>参加者：世界中のコンピュータ</td>
+</tr>
+<tr>
+<td>問題：言語が違って理解できない</td>
+<td>問題：メーカーや種類が違って理解できない</td>
+</tr>
+<tr>
+<td>解決策：共通言語（英語）を使う</td>
+<td>解決策：共通プロトコル（HTTP）を使う</td>
+</tr>
+<tr>
+<td>結果：スムーズな会議進行</td>
+<td>結果：スムーズなWeb通信</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HTTPがないと：</strong>
+- AppleのコンピュータとWindowsのコンピュータが話せない
+- 日本のサーバーとアメリカのサーバーが理解し合えない
+- 結果：インターネットが成り立たない</p>
+<p><strong>HTTPがあると：</strong>
+- 世界中のどんなコンピュータでも同じ方法で通信できる
+- どんなブラウザでも同じWebサイトが見られる
+- 結果：現在のインターネットが実現</p>
+<h3 id="3-http">3. HTTPの具体的な働き</h3>
+<p>HTTPは以下のことを細かく決めています：</p>
+<h4 id="_2">リクエスト（要求）の方法</h4>
+<ul>
+<li>「どうやってサーバーに『このページください』と伝えるか」</li>
+<li>「どんな情報を一緒に送るか（ブラウザの種類、言語設定など）」</li>
+</ul>
+<h4 id="_3">レスポンス（応答）の方法</h4>
+<ul>
+<li>「どうやってサーバーから『はい、データです』と返すか」</li>
+<li>「成功・失敗をどう伝えるか」</li>
+</ul>
+<h4 id="_4">エラーの伝え方</h4>
+<ul>
+<li>「ページが見つからない時は『404』」</li>
+<li>「サーバーエラーの時は『500』」</li>
+</ul>
+<p><strong>身近な例：宅配便</strong></p>
+<table>
+<thead>
+<tr>
+<th>宅配便</th>
+<th>HTTP通信</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>送り先住所の書き方</td>
+<td>URLの書き方</td>
+</tr>
+<tr>
+<td>荷物の梱包方法</td>
+<td>データの送信方法</td>
+</tr>
+<tr>
+<td>配達完了の連絡</td>
+<td>レスポンスコード</td>
+</tr>
+<tr>
+<td>「不在でした」、「住所不明」</td>
+<td>エラーコード（404、500など）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="httphttps">HTTPとHTTPSの違い</h2>
+<h3 id="1-http_1">1. HTTPの問題点</h3>
+<p>普通のHTTPは「葉書」のようなものです。</p>
+<p><strong>HTTPの特徴（葉書）：</strong>
+- 誰でも内容を読める
+- 改ざんされる可能性がある
+- 送り主が本物かわからない場合がある</p>
+<p><strong>具体的な危険性：</strong>
+- パスワードが第三者に見られる
+- クレジットカード情報が盗まれる
+- 偽のWebサイトに誘導される</p>
+<h3 id="2-https">2. HTTPSの登場</h3>
+<p>HTTPSは「封筒に入れた手紙」のようなものです。</p>
+<p><strong>HTTPSの特徴（封筒）：</strong>
+- <strong>S = Secure（安全）</strong>が追加
+- 内容が暗号化されて安全
+- 改ざんを検知できる
+- 送り主の身元が確認済み</p>
+<p><strong>具体的な安全性：</strong>
+- パスワードが暗号化される
+- クレジットカード情報が保護される
+- 正当なWebサイトかどうか確認できる</p>
+<p><img alt="WebBasic_2_4" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_4.png" />
+<img alt="WebBasic_2_5" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_5.png" /></p>
+<h3 id="3-https">3. 現在はHTTPSが標準</h3>
+<p><strong>2024年現在：</strong>
+- ほとんどのWebサイトがHTTPS
+- ブラウザがHTTPサイトに警告表示
+- Google検索でもHTTPSサイトが優遇される</p>
+<p><strong>確認方法：</strong>
+ブラウザのアドレスバーを見ると：
+- 🔒マーク = HTTPS（安全）
+- ⚠️マーク = HTTP（警告）</p>
+<h2 id="url">URLの構造を理解しよう</h2>
+<p>普段見ているURLを詳しく分解してみましょう。</p>
+<h3 id="url_1">URLの例</h3>
+<pre><code>https://www.example.com:443/products/smartphones.html?color=red&amp;amp;size=large#features
+</code></pre>
+<p><img alt="WebBasic_2_6" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_6.png" />
+<img alt="WebBasic_2_7" src="https://raw.githubusercontent.com/nkaihatsuItDivision/CodeLingoPicture/c2cbdeb965d1d555ccc21b56d7c11227858f700e/WebBasic_2_7.png" /></p>
+<h3 id="_5">各部分の詳細説明</h3>
+<h4 id="1-https">1. プロトコル部分：<code>https://</code></h4>
+<p><strong>意味：</strong>「この方式で通信します」
+- <code>http://</code> = 普通のHTTP通信
+- <code>https://</code> = 安全なHTTPS通信</p>
+<h4 id="2-wwwexamplecom">2. ドメイン名：<code>www.example.com</code></h4>
+<p><strong>意味：</strong>「この会社のサーバーと通信します」
+- <code>www</code> = サブドメイン（よくある慣習）
+- <code>example</code> = 会社・サービス名
+- <code>.com</code> = トップレベルドメイン（.jp、.orgなども）</p>
+<h4 id="3-443">3. ポート番号：<code>:443</code>（通常は表示されない）</h4>
+<p><strong>意味：</strong>「サーバーのこの窓口に接続します」
+- HTTP = 80番（通常省略）
+- HTTPS = 443番（通常省略）</p>
+<h4 id="4-productssmartphoneshtml">4. パス：<code>/products/smartphones.html</code></h4>
+<p><strong>意味：</strong>「サーバー内のこの場所にあるファイル」
+- フォルダ階層を表現
+- 実際のファイル場所とは限らない</p>
+<h4 id="5-colorredampsizelarge">5. クエリパラメータ：<code>?color=red&amp;amp;size=large</code></h4>
+<p><strong>意味：</strong>「追加の条件・情報」
+- <code>?</code> = ここからパラメータ開始
+- <code>&amp;amp;</code> = 複数のパラメータを区切る
+- 検索条件、設定などに使用</p>
+<h4 id="6-features">6. フラグメント：<code>#features</code></h4>
+<p><strong>意味：</strong>「ページ内のこの場所にジャンプ」
+- ページ内リンク
+- 目次から特定の章に飛ぶような機能</p>
+<h2 id="_6">実際に確認してみよう</h2>
+<h3 id="1https">演習1：HTTPS確認</h3>
+<ol>
+<li>いくつかのWebサイトにアクセス</li>
+<li>アドレスバーの🔒マークを確認</li>
+<li>クリックして証明書情報を見てみる</li>
+</ol>
+<p><strong>確認すべきサイト：</strong>
+- オンラインショッピングサイト
+- 銀行のサイト
+- SNSサイト</p>
+<h3 id="2url">演習2：URL分析</h3>
+<p>以下のURLを各部分（プロトコル、ドメイン、パス、クエリ）に分解してみましょう：</p>
+<pre><code>https://search.yahoo.co.jp/search?p=プログラミング&amp;amp;x=wrt
+</code></pre>
+<p><strong>答え：</strong>
+- プロトコル：<code>https://</code>
+- ドメイン：<code>search.yahoo.co.jp</code>
+- パス：<code>/search</code>
+- クエリ：<code>?p=プログラミング&amp;amp;x=wrt</code></p>
+<h3 id="3">演習3：エラーページ体験</h3>
+<ol>
+<li>存在しないURL（例：<code>https://www.google.com/nonexistent</code>）にアクセス</li>
+<li>404エラーページを確認</li>
+<li>「サーバーからの応答」であることを理解</li>
+</ol>
+<h2 id="_7">よくある質問</h2>
+<p><strong>Q: HTTPとHTMLの違いは？</strong>
+- <strong>HTTP</strong>：データをやり取りする方法（通信の約束事）
+- <strong>HTML</strong>：Webページの内容を書く言語（文書の書き方）</p>
+<p><strong>Q: なぜ最近はHTTPSばかりなの？</strong><br />
+A: プライバシー保護とセキュリティが重視されるようになったため。個人情報保護法の強化やサイバー攻撃の増加が背景にあります。</p>
+<p><strong>Q: ポート番号って何？</strong><br />
+A: コンピュータの「窓口番号」のようなもの。一つのサーバーで複数のサービス（Web、メール、ファイル共有など）を提供するための仕組みです。</p>
+<p><strong>Q: wwwは必要？</strong><br />
+A: 最近は不要な場合が多いです。<code>www.google.com</code>も<code>google.com</code>も同じページが表示されるように設定されています。</p>
+<h2 id="_8">重要なポイント</h2>
+<h3 id="http_1">HTTPは「共通言語」</h3>
+<ul>
+<li>世界中のコンピュータが理解できる約束事</li>
+<li>この約束があるから、どんなデバイスでもWebサイトが見られる</li>
+<li>メーカーや国が違っても同じ方法で通信可能</li>
+</ul>
+<h3 id="https">HTTPSは現在の必須要件</h3>
+<ul>
+<li>セキュリティを重視した現代では必須</li>
+<li>パスワード、個人情報、決済情報の保護</li>
+<li>🔒マークがあることを確認する習慣を</li>
+</ul>
+<h3 id="url_2">URLは住所＋詳細情報</h3>
+<ul>
+<li>プロトコル（通信方法）+ ドメイン（住所）+ パス（詳細な場所）</li>
+<li>クエリパラメータで条件指定</li>
+<li>フラグメントでページ内移動</li>
+</ul>
+<h3 id="_9">ブラウザが自動で処理</h3>
+<ul>
+<li>複雑な通信処理をブラウザが代行</li>
+<li>私たちは結果だけを見ている</li>
+<li>でも仕組みを知ることで、トラブル時の対処や理解が深まる</li>
+</ul>
+<h2 id="_10">まとめ</h2>
+<p>HTTP/HTTPSは：
+1. <strong>共通言語</strong>：世界中のコンピュータが理解できる通信ルール
+2. <strong>セキュリティ</strong>：HTTPSで安全な通信を実現
+3. <strong>住所システム</strong>：URLで正確な場所とやり取り方法を指定</p>
+<p>この基本的な仕組みを理解することで、次に学ぶ「リクエストとレスポンス」の詳細がより理解しやすくなります。</p>
+<h2 id="_11">次回予告</h2>
+<p>次のレッスンでは、HTTPを使った具体的な「リクエストとレスポンス」のやり取りについて詳しく学習します。</content>
+</lesson></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
