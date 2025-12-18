@@ -54,6 +54,18 @@ header .md-logo {
   }
 }
 
+/* ドロワーメニューのタイトル部分の背景色を白に */
+.md-nav__title {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* ドロワーメニュー内のロゴを非表示 */
+.md-nav__title .md-logo {
+  display: none !important;
+}
+
+
 /* サイドバー内のロゴを非表示 */
 .md-sidebar__header .md-sidebar__title {
   display: none !important;
