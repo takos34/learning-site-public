@@ -8,13 +8,13 @@
   width: 200px !important;
   height: auto !important;
 }
-.md-logo img {
+header .md-logo img {
   height: 32px !important;
   width: auto !important;
 }
 
 /* 左上のタイトル部分をMontserratに変更 */
-.md-header__title {
+.md-header__title .md-ellipsis {
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 700 !important;
   letter-spacing: 0.5px !important;
