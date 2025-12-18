@@ -3,18 +3,22 @@
 
 /* トップページのロゴを中央寄せ＆サイズ調整 */
 .logo-top {
-  display: block;
-  margin: 0 auto;      /* 中央寄せ */
-  width: 200px;        /* 横幅を小さめに調整 */
-  height: auto;        /* 縦横比を維持 */
+  display: block !important;
+  margin: 0 auto !important;
+  width: 200px !important;
+  height: auto !important;
+}
+.md-logo img {
+  height: 32px !important;
+  width: auto !important;
 }
 
 /* 左上のタイトル部分をMontserratに変更 */
 .md-header__title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  color: #003741; /* 黒文字で視認性を確保 */
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  color: #003741 !important;
 }
 
 /* 背景を白に統一 */
