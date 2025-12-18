@@ -46,9 +46,16 @@ header .md-logo img {
   display: none !important;
 }
 
-.md-sidebar__title,
-.md-sidebar .md-logo {
+/* トップページだけサイドメニューボタン非表示 */
+[data-md-page="index"] .md-header__button.md-icon[for="__drawer"] {
   display: none !important;
 }
+
+/* サイドバー内のロゴとタイトルを非表示 */
+.md-sidebar__header .md-logo,
+.md-sidebar__header .md-sidebar__title {
+  display: none !important;
+}
+
 
 
