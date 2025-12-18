@@ -13,6 +13,12 @@ header .md-logo img {
   width: auto !important;
 }
 
+/* ロゴを常に左端に配置 */
+header .md-logo {
+  margin-left: 0 !important;
+}
+
+
 /* 左上のタイトル部分をMontserratに変更 */
 .md-header__title .md-ellipsis {
   font-family: 'Montserrat', sans-serif !important;
@@ -46,9 +52,11 @@ header .md-logo img {
   display: none !important;
 }
 
-/* トップページだけサイドメニューボタン非表示 */
-[data-md-page="index"] .md-header__button.md-icon[for="__drawer"] {
-  display: none !important;
+/* トップページかつレスポンシブ時にハンバーガー非表示 */
+@media (max-width: 76.1875em) {
+  [data-md-page="index"] .md-header__button.md-icon[for="__drawer"] {
+    display: none !important;
+  }
 }
 
 /* サイドバー内のロゴとタイトルを非表示 */
@@ -62,6 +70,35 @@ header .md-logo img {
 .md-nav__source {
   display: none !important;
 }
+
+/* ドロワーメニューのタイトル部分に「← ホーム」を追加 */
+.md-nav__title::before {
+  content: "←";
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.md-nav__title::before:hover {
+  text-decoration: underline;
+}
+
+/* レッスンページのヘッダーにロゴ＋タイトルを追加 */
+[data-md-page^="02_Web基礎"] .md-header__title::before {
+  content: "SKILBRIDGE ";
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #003741;
+  margin-right: 0.5rem;
+}
+[data-md-page^="02_Web基礎"] .md-header__title::after {
+  content: url("/assets/images/logo_tab.png");
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+
 
 
 
