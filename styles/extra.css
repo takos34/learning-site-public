@@ -73,7 +73,7 @@ header .md-logo {
 
 /* ドロワーメニューのタイトル部分に「← ホーム」を追加 */
 .md-nav__title::before {
-  content: "";
+  content: " ";
   display: block;
   font-size: 0.9rem;
   font-weight: 600;
