@@ -71,21 +71,24 @@ header .md-logo {
   display: none !important;
 }
 
-/* レスポンシブ時のみ戻るボタンを表示 */
-@media (max-width: 76.1875em) {
-  .md-nav__title::before {
-    content: "←";
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
-  }
+/* ドロワーメニューのタイトル部分に「← ホーム」を追加 */
+.md-nav__title::before {
+  content: "←";
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
 }
-
 .md-nav__title::before:hover {
   text-decoration: underline;
 }
+
+/* 右サイドメニュー（目次）のタイトルを非表示 */
+.md-sidebar--secondary .md-sidebar__title {
+  display: none !important;
+}
+
 
 /* レッスンページのヘッダーにロゴ＋タイトルを追加 */
 [data-md-page^="02_Web基礎"] .md-header__title::before {
