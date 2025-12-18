@@ -57,5 +57,12 @@ header .md-logo img {
   display: none !important;
 }
 
+/* レスポンシブ時のドロワーメニュー調整 */
+.md-nav__title,
+.md-nav__source {
+  display: none !important;
+}
+
+
 
 
