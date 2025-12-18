@@ -5,11 +5,11 @@
 .logo-top {
   display: block !important;
   margin: 0 auto !important;
-  width: 200px !important;
+  width: 300px !important;
   height: auto !important;
 }
 header .md-logo img {
-  height: 32px !important;
+  height: 40px !important;
   width: auto !important;
 }
 
@@ -40,4 +40,15 @@ header .md-logo img {
   border: 1px solid #e0e0e0;
   box-shadow: none;
 }
+
+/* トップページだけサイドバー非表示 */
+[data-md-page="index"] .md-sidebar {
+  display: none !important;
+}
+
+.md-sidebar__title,
+.md-sidebar .md-logo {
+  display: none !important;
+}
+
 
