@@ -47,11 +47,6 @@ header .md-logo {
   box-shadow: none;
 }
 
-/* トップページだけサイドバー非表示 */
-[data-md-page="index"] .md-sidebar {
-  display: none !important;
-}
-
 /* トップページかつレスポンシブ時にハンバーガー非表示 */
 @media (max-width: 76.1875em) {
   [data-md-page="index"] .md-header__button.md-icon[for="__drawer"] {
