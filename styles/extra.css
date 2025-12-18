@@ -1,6 +1,14 @@
 /* Google FontsからMontserratを読み込み */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+/* トップページのロゴを中央寄せ＆サイズ調整 */
+.logo-top {
+  display: block;
+  margin: 0 auto;      /* 中央寄せ */
+  width: 200px;        /* 横幅を小さめに調整 */
+  height: auto;        /* 縦横比を維持 */
+}
+
 /* 左上のタイトル部分をMontserratに変更 */
 .md-header__title {
   font-family: 'Montserrat', sans-serif;
@@ -8,6 +16,7 @@
   letter-spacing: 0.5px;
   color: #003741; /* 黒文字で視認性を確保 */
 }
+
 /* 背景を白に統一 */
 .md-main, .md-content, .md-sidebar, .md-header {
   background-color: #ffffff;
@@ -20,6 +29,7 @@
   color: #000000;
   border-bottom: 1px solid #e0e0e0; /* 薄いグレーの区切り線で見やすく */
 }
+
 /* カードの背景も白に */
 .md-typeset .card {
   background-color: #ffffff;
