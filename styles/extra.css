@@ -54,32 +54,14 @@ header .md-logo {
   }
 }
 
-/* サイドバー内のロゴとタイトルを非表示 */
-.md-sidebar__header .md-logo,
+/* サイドバー内のロゴを非表示 */
 .md-sidebar__header .md-sidebar__title {
-  display: none !important;
-}
-
-/* サイドバー内のロゴとタイトルを非表示 */
-.md-sidebar__header .md-logo,
-.md-sidebar__header .md-sidebar__title {
-  display: none !important;
-}
-
-/* レスポンシブ時のドロワーメニュー調整 */
-/* タイトルテキストだけ消すが、枠は残す */
-.md-nav__title span {
-  display: none !important;
-}
-
-/* ロゴ部分だけ消す */
-.md-nav__source {
   display: none !important;
 }
 
 /* ドロワーメニューのタイトル部分に「← ホーム」を追加 */
 .md-nav__title::before {
-  content: "←";
+  content: "戻る";
   display: block;
   font-size: 0.9rem;
   font-weight: 600;
